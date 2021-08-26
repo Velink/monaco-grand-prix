@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
