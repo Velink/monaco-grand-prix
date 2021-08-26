@@ -24,8 +24,8 @@
 
 .nav-tool ul{
     display: flex;
-    height: auto;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .nav-tool ul li{
