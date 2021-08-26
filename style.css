@@ -4,42 +4,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Styling the Navbar */
-.navbar{
+.nav-tool{
     display: flex;
     width: 100%;
     background-color: #e10600;
     height: 70px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 3%;
 }
 
-.navbar h2{
+.nav-tool h2{
     color: #fff;
 }
 
-.navbar ul{
+.nav-tool ul{
     display: flex;
     height: auto;
     align-items: center;
 }
 
-.navbar ul li{
+.nav-tool ul li{
     list-style: none;
     text-decoration: none;
     white-space: nowrap;
 }
 
-.navbar ul li a{
+.nav-tool ul li a{
     text-decoration: none;
     color: #fff;
     padding-left: 30px;
 }
 
-.navbar ul li a:hover{
+.nav-tool ul li a:hover{
     color: #000000;
 }
 
@@ -83,7 +84,7 @@
 
 /* Styling the footer */
 
-.footer{
+.foooter{
     display: flex;
     justify-content: space-around;
     height: auto;
@@ -94,38 +95,38 @@
     margin-top: 200px;
 }
 
-.footer-text{
+.foooter-text{
     display: flex;
     flex-direction: column;
 }
 
-.footer-social-media-banner{
+.foooter-social-media-banner{
     display: flex;
     width: auto;
 }
 
-.footer-social-media-banner h5{
+.foooter-social-media-banner h5{
     color: #fff;
     white-space: nowrap;
 }
 
-.footer-social-media-banner a{
+.foooter-social-media-banner a{
      padding-left: 15%;
      color: #fff;
 }
 
-.footer-social-media-banner a:hover{
+.foooter-social-media-banner a:hover{
     color: #a17f1a;
 }
 
-.footer h2{
+.foooter h2{
     color: #fff;
     padding-bottom: 10px;
     padding-top: 1%;
     padding-left: 1%;
 }
 
-.footer h4{
+.foooter h4{
     color: #fff;
     padding-left: 1%;
     font-size: 13px;
