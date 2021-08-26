@@ -7,12 +7,18 @@
     font-family: 'Robot', sans-serif;
 }
 
+/* Styling the Navbar */
 .navbar{
+    display: flex;
     width: 100%;
-    background-color: red;
+    background-color: #e10600;
     height: 70px;
     align-items: center;
     justify-content: space-around;
+}
+
+.navbar h2{
+    color: #fff;
 }
 
 .navbar ul{
@@ -23,11 +29,104 @@
 
 .navbar ul li{
     list-style: none;
-    padding-left: 10px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
+    padding-left: 30px;
+}
+
+.navbar ul li a:hover{
+    color: #000000;
+}
+
+/* Styling the Grid */
+.grid-title{
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align:center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 10px;
+    margin: 10%;
+    margin-top: 2%;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.grid-item h2{
+    color: #e10600;
+}
+
+.grid-item img{
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling the footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    margin-top: 200px;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-media-banner{
+    display: flex;
+    width: auto;
+}
+
+.footer-social-media-banner h5{
+    color: #fff;
+    white-space: nowrap;
+}
+
+.footer-social-media-banner a{
+     padding-left: 15%;
+     color: #fff;
+}
+
+.footer-social-media-banner a:hover{
+    color: #a17f1a;
+}
+
+.footer h2{
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.footer h4{
+    color: #fff;
+    padding-left: 1%;
+    font-size: 13px;
 }
