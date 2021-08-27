@@ -4,30 +4,146 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+/* Styling the Navbar */
+.nav-tool{
+    display: flex;
     width: 100%;
-    background-color: red;
+    background-color: #e10600;
     height: 70px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 3%;
 }
 
-.navbar ul{
+.nav-tool h2{
+    color: #fff;
+}
+
+.nav-tool ul{
     display: flex;
-    height: auto;
     align-items: center;
+    margin-bottom: 0;
 }
 
-.navbar ul li{
+.nav-tool ul li{
     list-style: none;
-    padding-left: 10px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
-.navbar ul li a{
+.nav-tool ul li a{
     text-decoration: none;
     color: #fff;
+    padding-left: 30px;
+}
+
+.nav-tool ul li a:hover{
+    color: #000000;
+}
+
+/* Styling the Grid */
+.grid-title{
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align:center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 10px;
+    margin: 10%;
+    margin-top: 2%;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.grid-item h2{
+    color: #e10600;
+}
+
+.grid-item img{
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling the footer */
+
+.foooter{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    margin-top: 200px;
+}
+
+.foooter-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.foooter-social-media-banner{
+    display: flex;
+    width: auto;
+}
+
+.foooter-social-media-banner h5{
+    color: #fff;
+    white-space: nowrap;
+}
+
+.foooter-social-media-banner a{
+     padding-left: 15%;
+     color: #fff;
+}
+
+.foooter-social-media-banner a:hover{
+    color: #a17f1a;
+}
+
+.foooter h2{
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.foooter h4{
+    color: #fff;
+    padding-left: 1%;
+    font-size: 13px;
+}
+
+.track {
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+.abouttext {
+font-size:10
+}
+
+@media screen and (max-width:768px) {
+
+    .abouttext {
+    display:none
+    }
 }
